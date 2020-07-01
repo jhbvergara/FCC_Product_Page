@@ -1,14 +1,28 @@
 <html>
     <head>
+        <title>FCC: Product Page</title>
+        <link rel="icon" href="images/logo.png" type="image/png">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        
         <header id="header">
-            <img id="header-img" src="" alt="">
+                <img src="images/logo.png" alt="company-logo"  id="header-img">
             <nav id="nav-bar">
-                
+                <ul>
+                    <li><a href="#video" class="nav-link">Features</a></li>
+                    <li><a href="#video" class="nav-link">How it Works</a></li>
+                    <li><a href="#video" class="nav-link">Pricing</a></li>
+                </ul>
             </nav>
         </header>
-        
+
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0HUDsXQ5O2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+            <input type="submit" id="submit">
+        </form>
     </body>
 </html>
