@@ -8,21 +8,38 @@
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         
         <header id="header">
-                <img src="images/logo.png" alt="company-logo"  id="header-img">
+            <img src="images/logo.png" alt="company-logo"  id="header-img">
             <nav id="nav-bar">
                 <ul>
-                    <li><a href="#feature-section" class="nav-link">Features</a></li>
-                    <li><a href="#video" class="nav-link">How it Works</a></li>
-                    <li><a href="#video" class="nav-link">Pricing</a></li>  
+                    <li><a href="#major-feature-section" class="nav-link">Features</a></li>
+                    <li><a href="#video" class="nav-link">Trailer</a></li>
+                    <li><a href="#form" class="nav-link">Newsletter</a></li>  
                 </ul>
             </nav>
         </header>
         
         <main>     
-
             <div id="product-label-section">
                 <img src="images/main_photo.jpg" alt="product-image" id="product-image">
                 <h1 id="product-label">Acer Nitro 5 2020</h1>
+            </div>
+
+            <div id="major-feature-section">
+                <div class="major-feature-box">
+                    <img src="images/rtx.jpg" alt="rtx-photo">
+                    <h2>RTX™. It’s On.</h2>
+                    <p>The all-new RTX™ platform gives you up to 6x the performance of previous-generation graphics cards.</p>
+                </div>
+                <div class="major-feature-box">
+                    <img src="images/turing.jpg" alt="turing-photo">
+                    <h2>NVIDIA Turing™</h2>
+                    <p>The revolutionary NVIDIA Turing™ architecture fuses together real-time ray tracing, artificial intelligence, and programmable shading.</p>
+                </div>
+                <div class="major-feature-box">
+                    <img src="images/Ray_tracing.jpg" alt="ray-tracing-photo">
+                    <h2>Ray Tracing</h2>
+                    <p>Ray tracing simulates the true behavior of light to bring you real-time, cinema-quality rendering.</p>
+                </div>
             </div>
 
             <div id="feature-section">
@@ -44,11 +61,13 @@
                 <img src="images/connectivity.jpg" alt="connectivity-image">
             </div>
 
-            <div>
+            <div id="video-section">
+                <h2>Nitro 5 2020 Trailer</h2>
                 <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0HUDsXQ5O2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <h2>Subscribe to the JHTech Newsletter</h2> <br>
                 <input type="email" name="email" id="email" placeholder="Enter your email here" required>
                 <input type="submit" id="submit">
             </form>
